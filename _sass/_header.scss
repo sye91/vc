@@ -1,0 +1,162 @@
+.heading {
+padding-top:20px;
+   h1{
+   color:#ededed;
+
+   } 
+   
+h6 a{
+       text-transform: uppercase;
+       letter-spacing:2px;
+       color:$btc-blue;
+	   
+      &:hover {
+      text-decoration: none;
+	  font-weight:bold;
+	 }
+	  } 
+   h1 a{
+        color:$white;
+      &:hover {
+      text-decoration: none;
+	  text-shadow: 1px 1px 1px $btc-blue;}
+	  } } 
+     
+.block {  
+       letter-spacing:0.5px;
+	   
+	    a {
+    color:$btc-blue;
+    letter-spacing:1px;
+}
+    
+	h2 {
+       font-size:20px;
+       padding-top:10px; }
+	  
+	ul.social-list{
+    margin-bottom:20px;
+	padding-left: 0;
+    list-style: none;
+	
+	li{
+    margin-right:5px;
+    width: 40px;
+    height: 40px;
+	line-height: 40px;
+	margin-bottom:10px;
+	
+	
+    a{
+    display: block;
+    color:$btc-blue;
+	border:2px solid $btc-blue;
+    font-size: 20px;
+	text-align: center;
+	transition: transform .2s;
+	 	&:hover{
+    
+	  -ms-transform: scale(1.2); /* IE 9 */
+    -webkit-transform: scale(1.2); /* Safari 3-8 */
+    transform: scale(1.2);}
+	 }
+
+	 } }
+	 
+.list-item {
+    display: inline-block;
+}
+	
+
+}     
+
+@media screen and (min-width:$tb-width){
+	  
+.heading h1{
+        padding-top:100px;
+	    font-size:64px;}	  
+
+.block{
+	 p{
+	   font-size:18px;}
+     
+	 h2{
+	    font-size:32px;}	  
+	  }
+                                        }
+@media screen and (min-width:$dk-width){ 
+     
+	.heading h1{
+            padding-top:120px;
+	        font-size:80px;}   }
+
+@media screen and (max-width:$mob-width){
+     
+.block, .heading { 
+	 text-align:center;}	
+	 
+	 h1{
+        padding-top:70px;
+	    }
+	 
+.block{
+	ul.social-list{ 
+	 
+	li{
+    margin-right:5px;
+    a{
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    font-size:20px;}  
+	}  } } }		
+	
+	.input-group{
+    max-width:450px;
+    margin:20px auto;
+
+.form-control{
+border:none;
+background-color:#4d4d4d;
+color:$white;
+	&:focus{
+	background-color:#616161;
+	      -webkit-box-shadow:none;
+    	
+	  
+}}
+	          
+.input-group-btn .btn{
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+    font-size: 20px;
+	font-weight:600;
+    padding: 15px 26px;
+	text-transform: uppercase;
+	letter-spacing:1px;
+	color:$btc-black;
+	    background-color:$btc-blue; 
+      border-color: $btc-blue;
+   
+	
+
+	
+	&:hover{
+	    background-color:#a1fff6;
+	   border-color:#a1fff6;
+	  
+	
+	   text-decoration:underline;
+	   
+
+}		
+&:focus , &:active{
+ color:$btc-black;
+	  background-color:$btc-blue;
+	  -webkit-box-shadow:none;
+	   border-color:$btc-blue;
+	  
+}
+
+}
+}

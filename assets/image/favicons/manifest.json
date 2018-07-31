@@ -1,0 +1,19 @@
+{
+  "name": "Bootstrap Crew",
+  "display": "standalone",
+  "theme_color": "#393939",
+  "background_color": "#393939",
+  "description": "The quickest way to startup your web project with free, open source & readily available bootstrap templates. All you need is to unzip the BTC templates!.",
+  "icons": [
+  {
+    "src": "fav-192x192.png",
+    "sizes": "192x192",
+    "type": "image/png"
+  }, 
+  {
+    "src": "fav-512x512.png",
+    "sizes": "512x512",
+    "type": "image/png"
+  },       ]
+  
+}

@@ -1,0 +1,15 @@
+@mixin background-cover {
+  background:url('../image/logo/bg.png')  no-repeat center center fixed ;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+   background-color:$btc-black;
+  height: 100%; 
+}
+@mixin body-font {
+  font-family:'Roboto',Helvetica, Arial, serif;
+}
+@mixin heading-font{
+font-family:'Lato',Helvetica, Arial, sans-serif;
+}
